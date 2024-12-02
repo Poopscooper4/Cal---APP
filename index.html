@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Modak&family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal - APP</title>
+</head>
+<body>
+    <form class="formstyle" id="cal-app">
+        <div class="displaywindow">
+            <div id="lastresult" class="lastres">-</div>
+            <div id="inputhere" class="userinput">0</div>
+        </div>
+        <div class="inputer">
+            <div class="box">
+                <div id="clearinput" class="inputvalues firstline"><span class="fontstyleing">AC</span></div>
+                <div id="seven" class="inputvalues"><span class="fontstyleing">7</span></div>
+                <div id="four" class="inputvalues"><span class="fontstyleing">4</span></div>
+                <div id="one" class="inputvalues"><span class="fontstyleing">1</span></div>
+                <div id="calicon" class="inputvalues"><i class="fa-solid fa-calculator"></i></div>
+            </div>
+            <div class="box">
+                <div id="minorplus" class="inputvalues firstline"><span class="fontstyleing deg45"><span class="summ">+</span>/<span class="min">-</span></span></div>
+                <div id="eight" class="inputvalues"><span class="fontstyleing">8</span></div>
+                <div id="five" class="inputvalues"><span class="fontstyleing">5</span></div>
+                <div id="two" class="inputvalues"><span class="fontstyleing">2</span></div>
+                <div id="zero" class="inputvalues"><span class="fontstyleing">0</span></div>
+            </div>
+            <div class="box">
+                <div id="pdev" class="inputvalues firstline"><span class="fontstyleing">%</span></div>
+                <div id="nine" class="inputvalues"><span class="fontstyleing">9</span></div>
+                <div id="six" class="inputvalues"><span class="fontstyleing">6</span></div>
+                <div id="three" class="inputvalues"><span class="fontstyleing">3</span></div>
+                <div id="point" class="inputvalues"><span class="fontstyleing">.</span></div>
+            </div>
+            <div class="box">
+                <div id="Division" class="inputvalues lastslot"><span class="fontstyleing"><i class="fa-solid fa-divide"></i></span></div>
+                <div id="multiply" class="inputvalues lastslot"><span class="fontstyleing"><i class="fa-solid fa-xmark"></i></span></div>
+                <div id="minus" class="inputvalues lastslot"><span class="fontstyleing">-</span></div>
+                <div id="plus" class="inputvalues lastslot"><span class="fontstyleing">+</span></div>
+                <div id="equals" class="inputvalues lastslot"><span class="fontstyleing">=</span></div>
+            </div>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #59595a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.formstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.displaywindow{
+    border-radius: 50px 50px 0px 0px;
+    background-color: black;
+    width: 400px;
+    height: 250px;
+}
+.inputer{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 0px 0px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    /* background-color: #ff9f0a; */
+    background-color: black;
+}
+.box{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputvalues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2c;
+    border-radius: 50%;
+    width: 86px;
+    height: 86px;
+}
+.lastslot{
+    background-color: #ff9f0a;
+}
+
+.firstline{
+    background-color: #5c5c5f;
+}
+.fontstyleing{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+
+}
+.fa-calculator{
+    font-size: 35px;
+    color: white;
+}
+
+.summ,.min{
+    font-size: 30px;
+}
+
+.displaywindow{
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.newinputres{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.lastres{
+    color: #8f8f95;
+    text-align: end;
+    width: 350px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;  
+}
+.userinput{
+    text-align: end;
+    width: 350px;
+    height: 85px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 55px;    
+}
+
